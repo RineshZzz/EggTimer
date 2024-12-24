@@ -7,9 +7,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var progressView: UIProgressView!
     
-    var eggTime : [String : Int] = ["Soft" : 3,
-                                    "Medium" : 5,
-                                    "Hard" : 7]
+    var eggTime : [String : Int] = ["Soft" : 180,
+                                    "Medium" : 300,
+                                    "Hard" : 480]
     
     var totalTime = 0
     var secondsPassed = 0
